@@ -1,0 +1,33 @@
+{
+  "name": "code-comment-generator",
+  "version": "1.0.0",
+  "description": "A tool to automatically generate JSDoc and inline comments for JavaScript/TypeScript code.",
+  "main": "src/index.js",
+  "bin": {
+    "code-comment": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "cli": "node bin/cli.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "esprima": "^4.0.1",
+    "typescript": "^5.5.4",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "author": "Sameer Shaikh <alisameer52718@gmail.com>",
+  "license": "MIT",
+  "keywords": ["code", "comments", "jsdoc", "typescript", "javascript"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameer52718/code-comment-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sameer52718/code-comment-generator/issues"
+  },
+  "homepage": "https://github.com/sameer52718/code-comment-generator#readme"
+}
